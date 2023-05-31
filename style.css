@@ -4,7 +4,9 @@
 }
 
 #titulo {
-    color: rgb(94, 93, 93);
+    color: rgb(253,251,251);
+    position: relative;
+    
 }
 .text {
     color: rgba(46, 44, 44, 0.993);
@@ -17,5 +19,11 @@
 }
 #rodape {
 }
-
+#cabecalho{
+    position: fixed;
+    top: 0;
+    background-color: black;
+    text-align: center;
+    padding: 2%;
+}
 
