@@ -1,35 +1,129 @@
-#body{
+@media only screen and ( max-width : 600px ) {
 
-    background-color: rgb(253,251,251);
+  #cabecalho {
+    padding: 5px;
+  }
+
+  .section {
+    flex-basis: 100%;
+  }
+
+  #minha_foto {
+    width: 150px;
+  }
+}
+
+#body {
+  background-color: rgb(253, 251, 251);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
 }
 
 #titulo {
-    color: rgb(253,251,251);
-    position: relative;
-    
+  color: rgb(253, 251, 251);
+  position: relative;
+  margin-top: 0;
 }
+
 .text {
-    color: rgba(46, 44, 44, 0.993);
+  color: rgba(46, 44, 44, 0.993);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  font-size: medium;
 }
+
 #minha_foto {
-    position: static;
-    margin-top: 150px;
-    border: 5px solid #8f8e8e;
-    border-radius: 4px;
-    padding: 5px;
-    width: 200px;
+  border: 5px solid hsl(0, 0%, 56%);
+  border-radius: 4px;
+  margin-top: 80px;
 }
-#licoes_aprendidas {
+
+#box-licoes {
+  background-color: rgba(46, 44, 44, 0.295);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  border-radius: 20px;
+  padding: 10px;
+  width: 50%;
+  margin-top: 20px;
 }
-#licoes_a_aprender {
+
+.section {
+  text-align: center;
+  flex-grow: 1;
+  margin: 10px;
 }
+
+.title {
+  color: hsl(0, 0%, 20%);
+  font-family: Oswald, sans-serif;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+#licoes_aprendidas , #licoes_a_aprender {
+  color: hsl(0, 0%, 33%);
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  text-align: left;
+  padding-left: 20px;
+}
+
+#licoes_aprendidas li , #licoes_a_aprender li {
+  margin-bottom: 5px;
+}
+
+#div-lateral {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 20px;
+  width: 60%;
+}
+
+.lado-direito , .lado-esquerdo {
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+}
+
+.lado-direito h2 , .lado-esquerdo h2 {
+  margin-bottom: 10px;
+}
+
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th , td {
+  border: 1px solid hsl(0, 0%, 87%);
+  text-align: center;
+  padding: 8px;
+}
+
+th {
+  background-color: hsl(0, 0%, 95%);
+}
+
 #rodape {
-}
-#cabecalho{
-    position: fixed;
-    top: 0;
-    background-color: black;
-    text-align: center;
-    padding: 2%;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 

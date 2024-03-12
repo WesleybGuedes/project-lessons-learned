@@ -1,64 +1,100 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio - Wesley B Guedes</title>
     <link rel="stylesheet" href="style.css">
-
-   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,400;1,300;1,500&display=swap"
+        rel="stylesheet">
 </head>
+
 <body id="body">
     <header id="cabecalho">
         <h1 id="titulo">Lessons learned - Trybe</h1>
     </header>
-    <img id="minha_foto" src="./foto de perfil.jpeg" alt="Minha Foto" width="200px">
+    <img id="minha_foto" src="./foto_de_perfil.jpeg" alt="Minha Foto" width="200px">
     <br>
-    <a href="https://www.linkedin.com/in/wesley-guedes-23369a171/" target="_blank">Meu linkedin</a>
-    <h2>Lições</h2>
-    <h3>Completas:</h3>
-    <ol id="licoes_aprendidas">
-        <li>Html</li>
-        <li>Css</li>
-        <li>Java Script</li>
-        <li>Git e Git Hub</li>
-        <li>Unix</li>
-        <li>Shell</li>
-        <li>Slack</li>
-        <li>Semantica Html</li>
-        <li>Aprender a aprender</li>
-        <li>Auto Liderança</li>
-    </ol>
-    <h3>Desejadas:</h3>
-    <ul id="licoes_a_aprender">
-        <li>Python</li>
-        <li>React</li>
-        <li>Desenvolver APIs</li>
-        <li>MySQL</li>
-        <li>Node.js</li>
-        <li>Design de código</li>
-        <li>C#</li>
-        <li>Novas Soft Skills</li>
-        <li>Integração dom AIs</li>
-        <li>Aprender a ensinar</li>
-    </ul>
-    <h2>Sobre mim</h2>
-    <aside class="text">
-        <p>Sou um carioca casado de 27 anos, pai do Miguel e formado em arquitetura e urbanismo 
-    pela Universidade do Grande Rio em 2020. Atuei como coordenador dos projetos e na área 
-    de cenografia. Hoje sou aluno da Trybe e um dev. full stack em andamento.</p>
-    </aside>
-    <h2>Meu caminho de aprendizado:</h2>
-    <article class="text">
-        <p>Em minha jornada até aqui, adquiri conhecimentos sobre os fundamentos aonde aprendi
-             HTML e CSS e com essas habilidades, criei uma estrutura web e estilizei essa página, 
-             colaborei em equipe no slack e criei um site acessível com aprendizado de semantica. 
-             <br>
-             Aprender a aprender foi fundamental para me manter atualizado, enquanto a auto liderança
-             desenvolveu minha disciplina e organização. Animado com o aprendizado contínuo, 
-             estou pronto para enfrentar novos desafios na tecnologia.</p>
-      </article>
+    <a href="https://www.linkedin.com/in/wesley-guedes-23369a171/" target="_blank">Meu LinkedIn</a>
+    <div id="box-licoes">
+        <div class="section">
+            <h2 class="title">Lições Completas</h2>
+            <ol id="licoes_aprendidas">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Git e GitHub</li>
+                <li>Unix</li>
+                <li>Shell</li>
+                <li>Slack</li>
+                <li>Semântica HTML</li>
+                <li>Aprender a aprender</li>
+                <li>Auto liderança</li>
+            </ol>
+        </div>
+        <div class="section">
+            <h2 class="title">Lições Desejadas</h2>
+            <ul id="licoes_a_aprender">
+                <li>Python</li>
+                <li>React</li>
+                <li>Desenvolver APIs</li>
+                <li>MySQL</li>
+                <li>Node.js</li>
+                <li>Design de código</li>
+                <li>C#</li>
+                <li>Novas soft skills</li>
+                <li>Integração com AIs</li>
+                <li>Aprender a ensinar</li>
+            </ul>
+        </div>
+    </div>
+    <div id="div-lateral">
+        <div class="lado-direito">
+            <h2>Sobre mim</h2>
+            <aside class="text">
+                <p>Sou um carioca, arquiteto e casado de 27 anos, pai do Miguel. Atuei como coordenador dos projetos e
+                    na área de cenografia. Hoje sou aluno da Trybe e um desenvolvedor full stack em andamento.</p>
+            </aside>
+        </div>
+        <div class="lado-esquerdo">
+            <h2>Meu caminho de aprendizado:</h2>
+            <article class="text">
+                <p>Em minha jornada até aqui, adquiri conhecimentos sobre os fundamentos onde aprendi HTML e CSS. Com
+                    essas habilidades, criei uma estrutura web e estilizei esta página, colaborei em equipe no Slack e
+                    criei um site acessível com aprendizado de semântica. Aprender a aprender foi fundamental para me
+                    manter atualizado, enquanto a auto liderança desenvolveu minha disciplina e organização.</p>
+            </article>
+        </div>
+    </div>
+    <table>
+        <tr>
+            <th>Tecnologias</th>
+            <th>Nível de Domínio</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>Avançado</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>Avançado</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Avançado</td>
+        </tr>
+        <tr>
+            <td>React</td>
+            <td>Avançado</td>
+        </tr>
+
+    </table>
     <footer id="rodape">Todos os direitos reservados, Wesley</footer>
 </body>
-</html> 
+
+</html>
